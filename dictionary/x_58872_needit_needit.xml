@@ -24,8 +24,12 @@
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_string_1" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="legal1" label="What needed" mandatory="true" max_length="40" name="u_what_needed" type="string">
             <choice>
+                <element inactive_on_update="false" label="Facilities 1" sequence="0" value="Facilities 1"/>
                 <element inactive_on_update="false" label="Human Resource" sequence="0" value="human resource"/>
                 <element inactive="true" inactive_on_update="true" label="Human Resource1" sequence="0" value="human resource1"/>
+                <element inactive_on_update="false" label="Human Resources 2" sequence="0" value="Human Resources 2"/>
+                <element inactive_on_update="false" label="Legal 1" sequence="0" value="Legal 1"/>
+                <element inactive_on_update="false" label="Legal 2" sequence="0" value="Legal 2"/>
                 <element inactive_on_update="false" label="Human Resource2" sequence="1" value="human resource2"/>
                 <element inactive_on_update="false" label="Facilities1" sequence="2" value="facilities1"/>
                 <element inactive_on_update="false" label="facilities2" sequence="3" value="facilities2"/>
